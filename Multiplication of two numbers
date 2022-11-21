@@ -1,0 +1,13 @@
+#Write a python program to print addition of two numbers?
+
+print("Write a python program to print addition of two numbers")
+a=int(input('\nEnter First Number:'))
+b=int(input('Enter Second Number:'))
+c=a+b
+print('Sum Of Two Numbers:',c)
+
+OUTPUT:
+   Write a python program to print addition of two numbers
+   Enter First Number:4
+   Enter Second Number:7
+   Sum Of Two Numbers: 11
