@@ -1,13 +1,14 @@
-#Write a python program to print addition of two numbers?
+#Write a program to multiplication of two numbers?
 
-print("Write a python program to print addition of two numbers")
+print('Write a program to multiplication of two numbers')
 a=int(input('\nEnter First Number:'))
 b=int(input('Enter Second Number:'))
-c=a+b
-print('Sum Of Two Numbers:',c)
+c=a*b
+print('Multiplication Of Two Numbers:',c)
 
 OUTPUT:
-   Write a python program to print addition of two numbers
-   Enter First Number:4
-   Enter Second Number:7
-   Sum Of Two Numbers: 11
+      Write a program to multiplication of two numbers
+
+      Enter First Number:4
+      Enter Second Number:6
+      Multiplication Of Two Numbers: 24
