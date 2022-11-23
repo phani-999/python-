@@ -1,0 +1,13 @@
+a=int(input('enter the value of a :'))
+if a%2==0:
+    print('given value is an even number')
+else:
+    print('given value is an odd number')
+    
+ out put:
+ enter the value of a :5
+given value is an odd number
+
+out put2:
+enter the value of a :2
+given value is an even number
