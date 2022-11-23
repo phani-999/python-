@@ -1,0 +1,11 @@
+a=int(input('enter the value a :'))
+b=int(input('enter the value b :'))
+if a>b:
+    print('a is big')
+else:
+    print('b is big')
+
+out put:
+enter the value a :6
+enter the value b :5
+a is big
