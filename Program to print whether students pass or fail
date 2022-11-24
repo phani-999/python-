@@ -1,0 +1,21 @@
+#Write a program to print whether student is Pass or Fail?
+
+print('Write a program to print whether student is pass or fail')
+Sno=int(input('\nEnter Student Number:'))
+Sname=input('Enter Student Name:')
+Gp=input('Enter Student Group name:')
+S1=int(input('Enter the marks of Statistics:'))
+S2=int(input('Enter the marks of Python for data analysis:'))
+S3=int(input('Enter the marks of Data base management system:'))
+print('Pass')if S1>=35 and S2>=35 and S3>=35 else print('Fail')
+
+Output:
+Write a program to print whether student is pass or fail
+
+Enter Student Number:214117156066
+Enter Student Name:phanindra varma
+Enter Student Group name:Data Science
+Enter the marks of Statistics:60
+Enter the marks of Python for data analysis:65
+Enter the marks of Data base management system:70
+Pass
