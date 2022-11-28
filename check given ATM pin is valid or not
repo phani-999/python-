@@ -1,0 +1,16 @@
+pin=9182
+a=int(input("enter the atm pin "))
+if pin==a:
+   print("continue the transaction...")
+else:
+   print("incorrect pin")
+   print("please try again")
+   
+output:
+enter the atm pin 873
+incorrect pin
+please try again
+
+output:
+enter the atm pin 9182
+continue the transaction...
