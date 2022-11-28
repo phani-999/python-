@@ -1,0 +1,17 @@
+#write a program to do the atm process
+bal=5000
+amount=int(input('enter the amount :'))
+if amount<bal:
+    d=bal-amount
+    print('transaction processed successfully....')
+    print('Debited amount :',amount)
+    print('remaining balance :',d)
+else:
+    print('insufficient balance in your account')
+    print('please try again')
+    
+ out put 1:
+ enter the amount :4000
+transaction processed successfully....
+Debited amount : 4000
+remaining balance : 1000
