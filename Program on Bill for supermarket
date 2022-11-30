@@ -1,0 +1,30 @@
+#write a program to preapre bill for super market ?
+oil=120
+salt=30
+sugar=50
+soap=60
+detergent=120
+phno=int(input('enter the phone number of customer :'))
+name=input('enter the name of the customer :')
+add=input('enter the address of the customer :')
+op=int(input('enter the number of oil packets :'))
+sp=int(input('enter the number of salt packets :'))
+sup=int(input('enter the number of sugar packets :'))
+sop=int(input('enter the number of soap packets :'))
+dp=int(input('enter the number of detergents :'))
+bill=(oil*op)+(salt*sp)+(sugar*sup)+(soap*sop)+(detergent*dp)
+if bill>=3000:
+    tax=bill*5/100
+elif bill>=2000:
+    tax=bill*7/100
+elif bill>=1000:
+    tax=bill*10/100
+elif bill>=500:
+    tax=bill*15/100
+else:
+    tax=100
+tax=tax+bill
+print('customer phone number',phno)
+print('customer name',name)
+print('tax=',tax)
+print('bill=',bill)
