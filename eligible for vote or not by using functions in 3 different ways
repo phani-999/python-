@@ -1,0 +1,33 @@
+#1st way
+def age(n):
+    if n>18:
+        print("eligible to vote")
+    else:
+        print("not eligible to vote")
+n=int(input("enter the age:"))
+age(n)
+
+#2nd way
+def age(n):
+    if n>18:
+       return "YES"
+    else:
+        return "NO"
+n=int(input("enter the age:"))
+print(age(n))
+
+#3rd way
+def age(n):
+    if n>18:
+       return True
+    else:
+        return False
+n=int(input("enter the age:"))
+if age(n):
+    print("YES")
+else:
+    print("NO")
+    
+common output for three ways:
+enter the age:22
+YES
