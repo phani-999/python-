@@ -1,0 +1,38 @@
+#1st way
+def bigg(a,b):
+   if a>b:
+       return True
+   else:
+     return False
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+if bigg(a,b):
+    print("a is big")
+else:
+    print("b is big")
+    
+#2nd way
+def bigg(a,b):
+    if a>b:
+        return "a is big"
+    else:
+        return "b is big"
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+print(bigg(a,b))
+
+#3rd way:
+def bigg(x,y):
+    if x>y:
+        print("a is big")
+    else:
+        print("b is big")
+a=int(input("enter a number:"))
+b=int(input("enter a number:"))
+bigg(a,b)
+
+common output for three ways:
+enter a number:24
+enter a number:13
+a is big
+
