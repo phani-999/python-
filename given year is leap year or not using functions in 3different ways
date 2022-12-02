@@ -1,0 +1,33 @@
+#1st way
+def leap(n):
+    if n%4==0 and n%100!=0 or n%400==0:
+        print("YES")
+    else:
+        print("NO")
+n=int(input("enter the year:"))
+leap(n)
+
+#2nd way
+def leap(n):
+    if n%4==0 and n%100!=0 or n%400==0:
+        return "YES"
+    else:
+        return "NO"
+n=int(input("enter the year:"))
+print(leap(n))
+
+#3rd way
+def leap(n):
+    if n%4==0 and n%100!=0 or n%400==0:
+        return True
+    else:
+        return False
+n=int(input("enter the year:"))
+if leap(n):
+    print("YES")
+else:
+    print("NO")
+    
+ common output for three ways:
+ enter the year:2024
+ YES
