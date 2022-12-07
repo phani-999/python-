@@ -1,0 +1,18 @@
+def happynum(n):
+    sum=0
+    while n!=0:
+        r=n%10
+        sum=sum+(r*r)
+        n=n//10
+    return sum
+n=int(input("enter the number:"))
+while(n>9):
+    n=happynum(n)
+if n==1 or n==7:
+    print("number is happy number")
+else:
+    print("number is not a happy number")
+    
+output:
+enter the number:82
+number is happy number
