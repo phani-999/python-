@@ -1,0 +1,12 @@
+n=int(input("enter the total number of values:"))
+l=list(map(int,input().split()))
+print(l[0])
+print(l[2])
+print(l[4])
+
+output:
+enter the total number of values:6
+23 54 64 32 45 23
+23
+64
+45
