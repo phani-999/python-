@@ -1,0 +1,20 @@
+l=[]
+n=int(input("enter the number of values:"))
+for i in range(n):
+    x=int(input("enter elements:"))
+    l.append(x)
+print(l)
+print(max(l))
+print(min(l))
+
+output:
+enter the number of values:6
+enter elements:32
+enter elements:23
+enter elements:76
+enter elements:98
+enter elements:75
+enter elements:34
+[32, 23, 76, 98, 75, 34]
+98
+23
