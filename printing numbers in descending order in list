@@ -1,0 +1,15 @@
+n=int(input("enter no.of values:"))
+a=list(map(int,input().split()))
+for i in range(0,n-1):
+    for j in range(i+1,n):
+        if a[i]<a[j]:
+            t=a[i]
+            a[i]=a[j]
+            a[j]=t
+for i in range(n):
+    print(a[i],end=" ")
+    
+output:
+enter no.of values:6
+23 31 245 66 72 8
+245 72 66 31 23 8
