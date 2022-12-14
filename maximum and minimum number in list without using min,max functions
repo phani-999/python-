@@ -1,0 +1,18 @@
+n=int(input("enter no.of values:"))
+l=[]
+l=list(map(int,input().split()))
+max=l[0]
+min=l[0]
+for i in range(1,n):
+    if l[i]>max:
+        max=l[i]
+    if l[i]<min:
+        min=l[i]
+print("maximum is ",max)
+print("minimum is ",min)
+
+output:
+enter no.of values:4
+23 33 52 12
+maximum is  52
+minimum is  12
