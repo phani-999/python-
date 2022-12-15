@@ -1,0 +1,15 @@
+n=int(input())
+l=list(map(int,input().split()))
+el=[]
+ol=[]
+for i in range(n):
+    if l[i]%2==0:
+        el.append(l[i])
+    else:
+        ol.append(l[i])
+x=ol+el
+for i in x:
+    print(i,end=" ")
+5
+12 21 23 28 6
+21 23 12 28 6
