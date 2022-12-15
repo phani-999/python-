@@ -1,0 +1,17 @@
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+for i in range(n):
+    for j in range(i+1,n):
+        if l[i]-l[j]==x:
+            check=1
+if check==0:
+    print("NO")
+else:
+    print("YES")
+    
+output:
+5
+1 2 9 12 4
+8
+YES
