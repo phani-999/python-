@@ -1,0 +1,11 @@
+str=input("enter a string:")
+n=len(str)
+count=0
+for i in range(0,n):
+    if str[i].isdigit()==1:
+        count+=1
+print(count)
+
+output:
+enter a string:pha23n9i08
+5
