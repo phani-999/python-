@@ -1,0 +1,13 @@
+str=input("enter the string:")
+length=len(str)
+print(length)
+print(str.lower())
+print(str.upper())
+print(str.swapcase())
+
+output:
+enter the string:PhAnI
+5
+phani
+PHANI
+pHaNi
