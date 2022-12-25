@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+for i in range(n-1,-1,-1):
+    print(l[i],end=' ')
+    
+output:
+5
+12 11 23 7 44
+44 7 23 11 12 
