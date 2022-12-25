@@ -1,0 +1,17 @@
+x=int(input())
+y=int(input())
+count=0
+for i in range(x+1,y):
+    flag=0
+    for j in range(1,i):
+        if i%j==0:
+            flag+=1
+            
+    if flag==1:
+             count+=1
+print(count)
+
+output:
+1
+100
+25
