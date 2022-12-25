@@ -1,0 +1,16 @@
+x=[]
+n=int(input())
+l=list(map(int,input().split()))
+for i in range(0,n):
+    flag=0
+    for j in range(0,n):
+        if l[i]==l[j] and i!=j:
+            flag+=1
+    if flag==0:
+        x.append(l[i])
+print(x)
+
+output:
+5
+1 2 3 2 4 
+[1, 3, 4]
