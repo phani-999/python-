@@ -1,0 +1,17 @@
+n=int(input())
+l=list(map(int,input().split()))
+l1=[]
+for i in range(0,n):
+    fact=0
+    for j in range(0,n):
+        if l[i]==l[j] and i!=j:
+            fact=fact+1
+    if fact==0 or fact==1:
+        
+        l1.append(l[i])
+print(l1)
+
+Output:
+6
+1 2 3 1 5 1
+[2, 3, 5]
