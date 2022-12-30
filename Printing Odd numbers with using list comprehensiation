@@ -1,0 +1,8 @@
+n=int(input ())
+l=[i for i in range(1,n+1) if i%2!=0]
+print(l)
+
+Output:
+13
+[1, 3, 5, 7, 9, 11, 13]
+
