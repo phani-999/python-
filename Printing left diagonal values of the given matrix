@@ -1,0 +1,25 @@
+n=int(input())
+A=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    A.append(l)
+for i in range(n):
+    for j in range(n):
+        if i==j:
+            print(A[i][j],end=" ")
+
+Output:
+3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+1 5 9 
