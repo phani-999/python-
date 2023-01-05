@@ -1,0 +1,12 @@
+n=int(input())
+l=list(map(int,input().split()))
+k=int(input())
+l.sort()
+m=l[k:]
+print(max(m)-min(m))
+
+Output:
+6
+1 21 32 10 8 6
+3
+22
