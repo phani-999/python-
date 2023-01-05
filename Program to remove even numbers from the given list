@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+for i in range(0,n):
+    if l[i]%2!=0:
+        print(l[i],end=' ')
+Output:
+6
+4 8 9 10 11 12
+9 11 
