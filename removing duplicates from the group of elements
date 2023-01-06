@@ -1,0 +1,22 @@
+
+n=int(input())
+l=list(map(int,input().split()))
+u=[]
+d=[]
+for i in l:
+    if i not in u:
+        u.append(i)
+    else:
+        d.append(i)
+for i in u:
+    print(i,end=" ")
+    
+output:
+6
+1 2 3 4 6 2
+1 2 3 4 6 
+
+output:
+5
+1 2 3 2 1
+1 2 3 
