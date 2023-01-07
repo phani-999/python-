@@ -1,0 +1,20 @@
+x=0
+p=[]
+n=int(input())
+l=list(map(int,input().split()))
+for i in range(0,n):
+    a=l[i]
+    cunt=0
+    for j in range(1,a):
+        if l[i]%j==0:
+            cunt+=1
+    if cunt==1:
+        p.append(l[i])
+for i in p:
+    x+=i
+print(x)
+
+Output:
+5
+1 2 5 7 4
+14
