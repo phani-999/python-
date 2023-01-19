@@ -1,0 +1,11 @@
+s=input()
+d=int(input())
+for i in range(0,len(s)):
+    for j in range(0,d):
+        print(s[i],end="")
+
+Input:
+aditya
+2
+Output:
+aaddiittyyaa
