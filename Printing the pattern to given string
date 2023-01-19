@@ -1,0 +1,11 @@
+name=input()
+for i in range(len(name),0,-1):
+    print(name[:i])
+
+Output:
+phani
+phani
+phan
+pha
+ph
+p
