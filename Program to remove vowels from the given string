@@ -1,0 +1,9 @@
+
+s=input()
+for i in range(0,len(s)):
+    if s[i]!='a' and s[i]!='i' and s[i]!='o' and s[i]!='u' and s[i]!='A' and s[i]!='I' and s[i]!='O' and s[i]!='U' and s[i]!='e' and s[i]!='E':
+        print(s[i],end="")
+
+Output:
+phanindravarma
+phnndrvrm
